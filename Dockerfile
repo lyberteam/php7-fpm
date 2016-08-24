@@ -38,7 +38,7 @@ RUN apt-get update && apt-get install -y \
         --with-jpeg-dir=/usr/include \
     && docker-php-ext-install gd \
     && docker-php-ext-install mbstring \
-    && docker-php-ext-enable opcache gd
+    && docker-php-ext-enable opcache gd \
     && docker-php-ext-install
 
 # install composer globally
