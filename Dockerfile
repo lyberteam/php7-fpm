@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
         wget \
         libevent-dev \
         librabbitmq-dev \
+    && docker-php-ext-install xsl \
     && docker-php-ext-install iconv \
     && docker-php-ext-install zip \
     && docker-php-ext-install bz2 \
