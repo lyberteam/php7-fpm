@@ -69,6 +69,7 @@
    * xml
    * xmlreader
    * xmlwriter
+   * xsl
    * Zend OPcache
    * zip
    * zlib

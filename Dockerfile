@@ -18,8 +18,11 @@ RUN apt-get update && apt-get install -y \
         mc \
         vim \
         wget \
+        cron \
         libevent-dev \
         librabbitmq-dev \
+        libxml2 \
+        libxslt-dev \
     && docker-php-ext-install xsl \
     && docker-php-ext-install iconv \
     && docker-php-ext-install zip \
